@@ -30,6 +30,6 @@ public class ExchangeMain {
 		dbport = swappingEngineConfig.getInteger("database.port", 0);
 		
 		DatabaseExecutor x = new DatabaseExecutor(dbport, dbhost, dbuser, dbpass, dbname);
-		x.executeSQLFromFile(new File("resetDatabase.sql"));
+		x.executeSQLFromFile(new File("sql/resetDatabase.sql"));
 	}
 }

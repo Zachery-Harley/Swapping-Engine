@@ -79,6 +79,7 @@ public class DatabaseExecutor {
 			while((line = reader.readLine()) != null) {
 				line = line.trim();
 				if(line.startsWith("--execute")) {
+					logger.debug("Executing embeded execute '{}'", line.replace("--execute ", ""));
 					executeSQLFromFile(new File(line.replace("--execute ", "")));
 					continue;
 				}
