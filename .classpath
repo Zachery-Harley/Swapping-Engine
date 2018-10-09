@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Logback Classic"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/slf4j"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Logback Core"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Beanutils"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Configuration"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache IO"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Lang"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Apache Logging"/>
+	<classpathentry kind="lib" path="drivers/postgresql-42.2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

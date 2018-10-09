@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS types;
+CREATE TABLE types (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(20)
+);

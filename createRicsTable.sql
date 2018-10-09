@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS rics;
+CREATE TABLE rics (
+	id SERIAL PRIMARY KEY,
+	code VARCHAR(20),
+	long_name VARCHAR(100)
+);

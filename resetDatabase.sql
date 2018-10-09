@@ -1,0 +1,4 @@
+--execute sql/createTypesTable.sql
+--execute sql/createRicsTable.sql
+--execute sql/createOrdersTable.sql
+--execute sql/createSwapsTable.sql
